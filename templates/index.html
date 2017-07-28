@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Welcome to Book My Cab</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../static/css/mdb.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya|Anton|Artifika|Bellefair|Cabin+Condensed|Cookie|Exo|Exo+2|Fjalla+One|Josefin+Sans|Kanit|Lobster|Lobster+Two|Nunito+Sans|Orbitron|PT+Sans|PT+Sans+Narrow|Play|Righteous|Ruda|Russo+One|Signika|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono" rel="stylesheet">
+    <style>
+       .navbar-dark{
+            color:white!important;
+            /*font-weight:600;*/
+        }
+        .navbar-brand{
+            font-family: 'Russo One', sans-serif; 
+        }
+        ul.navbar-nav{
+            font-family:'Ubuntu Mono', monospace;
+            font-size: 18px;
+        }
+        @media screen and (min-width:990px)
+        {
+            ul.navbar-nav
+            {
+                margin-left:70%;
+                position:relative;
+                float: right;
+            }
+            ul.navbar-nav .nav-item{
+                min-width:60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-toggleable-md scrolling-navbar navbar-dark red">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+            data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1"
+            aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <strong>Book My Cab</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutus/">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contactus/">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript" src="../static/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/tether.min.js"></script>
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/mdb.min.js"></script>
+</body>
+</html>
